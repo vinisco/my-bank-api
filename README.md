@@ -43,7 +43,7 @@ yarn start
 
 ## 1. Criar usuário e saldo da conta
 
-POST <strong>"http://localhost:3000/"</strong>
+POST http://localhost:3000/
 
 ```json
 {
@@ -54,7 +54,7 @@ POST <strong>"http://localhost:3000/"</strong>
 
 ## 2. Depositar valor na conta
 
-PUT <strong>http://localhost:3000/deposit/:accountId</strong>
+PUT http://localhost:3000/deposit/:accountId
 
 ```json
 {
@@ -64,7 +64,7 @@ PUT <strong>http://localhost:3000/deposit/:accountId</strong>
 
 ## 3. Sacar valor na conta
 
-PUT <strong>http://localhost:3000/withdraw/:accountI</strong>
+PUT http://localhost:3000/withdraw/:accountI
 
 ```json
 {
@@ -74,8 +74,8 @@ PUT <strong>http://localhost:3000/withdraw/:accountI</strong>
 
 ## 4. Visualizar saldo da conta
 
-GET <strong>http://localhost:3000/deposit/:accountId</strong>
+GET http://localhost:3000/deposit/:accountId
 
 ## 5. Deletar conta
 
-DELETE <strong>http://localhost:3000/delete/:accountId</strong>
+DELETE http://localhost:3000/delete/:accountId
