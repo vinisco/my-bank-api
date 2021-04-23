@@ -2,9 +2,9 @@
 
 ## Descrição
 
-## 1. Crie um endpoint para criar uma “account”. Este endpoint deverá receber como parâmetros os campos “name” e “balance” conforme descritos acima. O “balance” recebido neste endpoint corresponderá ao saldo inicial da conta. Esta “account” deverá ser salva em um arquivo no formato json chamado “accounts.json”, e deverá ter um “id” único associado. A API deverá garantir o incremento automático deste identificador, de forma que ele não se repita entre os registros.
+### 1. Crie um endpoint para criar uma “account”. Este endpoint deverá receber como parâmetros os campos “name” e “balance” conforme descritos acima. O “balance” recebido neste endpoint corresponderá ao saldo inicial da conta. Esta “account” deverá ser salva em um arquivo no formato json chamado “accounts.json”, e deverá ter um “id” único associado. A API deverá garantir o incremento automático deste identificador, de forma que ele não se repita entre os registros.
 
-## 2. Crie um endpoint para registrar um depósito em uma conta. Este endpoint deverá receber como parâmetros o id da conta e o valor do depósito. Ele deverá atualizar o “balance” da conta,incrementando-o com o valor recebido como parâmetro e realizar a atualização no “accounts.json”. O endpoint deverá validar se a conta informada existe, caso não exista deverá retornar um erro.
+### 2. Crie um endpoint para registrar um depósito em uma conta. Este endpoint deverá receber como parâmetros o id da conta e o valor do depósito. Ele deverá atualizar o “balance” da conta,incrementando-o com o valor recebido como parâmetro e realizar a atualização no “accounts.json”. O endpoint deverá validar se a conta informada existe, caso não exista deverá retornar um erro.
 
 ## 3. Crie um endpoint para registrar um saque em uma conta. Este endpoint deverá receber como parâmetros o id da conta e o valor do saque. Ele deverá atualizar o “balance” da conta, decrementando-o com o valor recebido com parâmetro e realizar a atualização no “accounts.json”. O endpoint deverá validar se a conta informada existe. Caso não exista, deverá retornar um erro. Também deverá validar se a conta possui saldo suficiente para aquele saque, se não tiver deverá retornar um erro, não permitindo assim que o saque fique negativo.
 
