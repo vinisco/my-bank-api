@@ -64,7 +64,7 @@ PUT http://localhost:3000/deposit/:accountId
 
 ## 3. Sacar valor na conta
 
-PUT http://localhost:3000/withdraw/:accountI
+PUT http://localhost:3000/withdraw/:accountId
 
 ```json
 {
