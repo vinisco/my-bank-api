@@ -74,7 +74,7 @@ PUT http://localhost:3000/withdraw/:accountId
 
 ## 4. Visualizar saldo da conta
 
-GET http://localhost:3000/deposit/:accountId
+GET http://localhost:3000/balance/:accountId
 
 ## 5. Deletar conta
 
