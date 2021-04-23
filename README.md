@@ -24,7 +24,7 @@ Para iniciar a instalação é necessário clonar o projeto do GitHub num diret�
 
 ```shell
 cd "diretorio de sua preferencia"
-git clone https://github.com/vinisco/trabalho-pratico-api
+git clone https://github.com/vinisco/my-bank-api
 ```
 
 Depois utilizar o yarn install dentro do diretório para instalar as dependencias:
@@ -43,7 +43,7 @@ yarn start
 
 ## 1. Criar usuário e saldo da conta
 
-POST http:http://localhost:3000/
+POST ####http://localhost:3000/
 
 ```json
 {
@@ -54,7 +54,7 @@ POST http:http://localhost:3000/
 
 ## 2. Depositar valor na conta
 
-PUT http:http://localhost:3000/deposit/:accountId
+PUT ####http://localhost:3000/deposit/:accountId
 
 ```json
 {
@@ -64,7 +64,7 @@ PUT http:http://localhost:3000/deposit/:accountId
 
 ## 3. Sacar valor na conta
 
-PUT http:http://localhost:3000/withdraw/:accountId
+PUT ####http://localhost:3000/withdraw/:accountId
 
 ```json
 {
@@ -74,8 +74,8 @@ PUT http:http://localhost:3000/withdraw/:accountId
 
 ## 4. Visualizar saldo da conta
 
-GET http:http://localhost:3000/deposit/:accountId
+GET ####http://localhost:3000/deposit/:accountId
 
 ## 5. Deletar conta
 
-DELETE http:http://localhost:3000/delete/:accountId
+DELETE ####http://localhost:3000/delete/:accountId
